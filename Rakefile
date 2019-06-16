@@ -1,5 +1,4 @@
 namespace :greeting do
-
   desc 'outputs hello to the terminal'
   task :hello do
     puts "hello from Rake!"
@@ -10,3 +9,6 @@ namespace :greeting do
     puts "hola de Rake!"
   end
 end
+
+  desc 'drop into the Pry console'
+  task :console 
